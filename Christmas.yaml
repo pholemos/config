@@ -1,0 +1,156 @@
+type: picture-elements
+elements:
+  - type: image
+    style:
+      top: 21%
+      left: 23%
+      width: 6%
+    title: blinker
+    tap_action:
+      action: none
+    hold_action:
+      action: none
+    image: >-
+        https://raw.githubusercontent.com/pholemos/images/5b9fbafeceb9f6de409afff26daeb98d478367d8/Christmas/blinkeron.gif
+  - type: image
+    style:
+      top: 50%
+      left: 50%
+      width: 100%
+    title: Console
+    tap_action:
+      action: none
+    hold_action:
+      action: none
+    image: >-
+        https://raw.githubusercontent.com/pholemos/images/5b9fbafeceb9f6de409afff26daeb98d478367d8/Christmas/Console.png
+  - type: image
+    style:
+      top: 30%
+      left: 32%
+      width: 12%
+    title: Tree indicator
+    tap_action:
+      action: none
+    hold_action:
+      action: none
+    entity: switch.100020db31_2
+    state_image:
+      "on": >-
+        https://raw.githubusercontent.com/pholemos/images/5b9fbafeceb9f6de409afff26daeb98d478367d8/Christmas/sign1on.gif
+      "off": >-
+        https://raw.githubusercontent.com/pholemos/images/5b9fbafeceb9f6de409afff26daeb98d478367d8/Christmas/sign1off.png
+  - type: image
+    style:
+      top: 30%
+      left: 46%
+      width: 12%
+    title: Window lights indicator
+    tap_action:
+      action: none
+    hold_action:
+      action: none
+    state_image:
+      "on": >-
+        https://raw.githubusercontent.com/pholemos/images/5b9fbafeceb9f6de409afff26daeb98d478367d8/Christmas/sign2on.gif
+      "off": >-
+        https://raw.githubusercontent.com/pholemos/images/5b9fbafeceb9f6de409afff26daeb98d478367d8/Christmas/sign2off.png
+    entity: switch.100020e2f6_1
+  - type: image
+    title: Star indicator
+    tap_action:
+      action: none
+    hold_action:
+      action: none
+    state_image:
+      "on": >-
+        https://raw.githubusercontent.com/pholemos/images/5b9fbafeceb9f6de409afff26daeb98d478367d8/Christmas/sign3on.gif
+      "off": >-
+        https://raw.githubusercontent.com/pholemos/images/5b9fbafeceb9f6de409afff26daeb98d478367d8/Christmas/sign3off.png
+    entity: switch.10001b7d9c
+    style:
+      top: 30%
+      left: 60%
+      width: 12%
+  - type: image
+    title: Train indicator
+    tap_action:
+      action: none
+    hold_action:
+      action: none
+    state_image:
+      "on": >-
+        https://raw.githubusercontent.com/pholemos/images/5b9fbafeceb9f6de409afff26daeb98d478367d8/Christmas/sign4on.gif
+      "off": >-
+        https://raw.githubusercontent.com/pholemos/images/5b9fbafeceb9f6de409afff26daeb98d478367d8/Christmas/sign4off.png
+    style:
+      top: 30%
+      left: 74%
+      width: 12%
+    entity: switch.10001b5cdf
+  - type: image
+    title: Tree Switch
+    tap_action:
+      action: toggle
+    hold_action:
+      action: none
+    state_image:
+      "on": >-
+        https://raw.githubusercontent.com/pholemos/images/5b9fbafeceb9f6de409afff26daeb98d478367d8/Christmas/b1on.png
+      "off": >-
+        https://raw.githubusercontent.com/pholemos/images/5b9fbafeceb9f6de409afff26daeb98d478367d8/Christmas/b1off.png
+    style:
+      top: 65%
+      left: 32%
+      width: 10%
+    entity: switch.100020db31_2
+  - type: image
+    title: Window lights Switch
+    tap_action:
+      action: toggle
+    hold_action:
+      action: none
+    state_image:
+      "on": >-
+        https://raw.githubusercontent.com/pholemos/images/5b9fbafeceb9f6de409afff26daeb98d478367d8/Christmas/b2on.png
+      "off": >-
+        https://raw.githubusercontent.com/pholemos/images/5b9fbafeceb9f6de409afff26daeb98d478367d8/Christmas/b2off.png
+    entity: switch.100020e2f6_1
+    style:
+      top: 65%
+      left: 46%
+      width: 10%
+  - type: image
+    title: Star Switch
+    tap_action:
+      action: toggle
+    hold_action:
+      action: none
+    state_image:
+      "on": >-
+        https://raw.githubusercontent.com/pholemos/images/5b9fbafeceb9f6de409afff26daeb98d478367d8/Christmas/b3on.png
+      "off": >-
+        https://raw.githubusercontent.com/pholemos/images/5b9fbafeceb9f6de409afff26daeb98d478367d8/Christmas/b3off.png
+    entity: switch.10001b7d9c
+    style:
+      top: 65%
+      left: 60%
+      width: 10%
+  - type: image
+    title: Train Switch
+    tap_action:
+      action: toggle
+    hold_action:
+      action: none
+    state_image:
+      "on": >-
+        https://raw.githubusercontent.com/pholemos/images/5b9fbafeceb9f6de409afff26daeb98d478367d8/Christmas/b4on.png
+      "off": >-
+        https://raw.githubusercontent.com/pholemos/images/5b9fbafeceb9f6de409afff26daeb98d478367d8/Christmas/b4off.png
+    entity: switch.10001b5cdf
+    style:
+      top: 65%
+      left: 74%
+      width: 10%
+image: >-
+        https://raw.githubusercontent.com/pholemos/images/5b9fbafeceb9f6de409afff26daeb98d478367d8/Christmas/background.png
