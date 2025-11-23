@@ -1,0 +1,251 @@
+type: picture-elements
+elements:
+  - type: conditional
+    title: Suite
+    conditions:
+      - condition: state
+        entity: switch.100021ab5c
+        state: "on"
+    elements:
+      - type: image
+        image: >-
+          https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/windowsuiteON.png
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+  - type: conditional
+    title: DinningRoom
+    conditions:
+      - condition: state
+        entity: switch.10001b5cdf
+        state: "on"
+    elements:
+      - type: image
+        image: >-
+          https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/windowdinningroomON.png
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+  - type: conditional
+    title: LivingRoom
+    conditions:
+      - condition: state
+        entity: switch.10001b7d9c
+        state: "on"
+    elements:
+      - type: image
+        image: >-
+          https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/windowlivingroomON.png
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+  - type: conditional
+    title: Bedroom1
+    conditions:
+      - condition: state
+        entity: switch.1000217861
+        state: "on"
+    elements:
+      - type: image
+        image: >-
+          https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/windowbedroom1ON.png
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+  - type: conditional
+    title: Bedroom2
+    conditions:
+      - condition: state
+        entity: switch.10002b4d01
+        state: "on"
+    elements:
+      - type: image
+        image: >-
+          https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/windowbedroom2ON.png
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+  - type: conditional
+    title: Kitchen
+    conditions:
+      - condition: state
+        entity: switch.10002166d6
+        state: "on"
+    elements:
+      - type: image
+        image: >-
+          https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/windowkitchenON.png
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+  - type: image
+    entity: switch.100021ab5c
+    title: Suite
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    image: >-
+      https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/smileypumpkinON.png
+    state_image:
+      "off": >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/smileypumpkinOFF.png
+    style:
+      left: 10%
+      top: 24%
+      width: 8%
+  - type: image
+    entity: switch.1000217861
+    title: Bedroom 1
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    image: >-
+      https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/angrypumpkinON.png
+    state_image:
+      "off": >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/angrypumpkinOFF.png
+    style:
+      left: 17%
+      top: 34%
+      width: 8%
+  - type: image
+    entity: switch.10002b4d01
+    title: Bedroom 2
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    image: >-
+      https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/pumpkinON.png
+    state_image:
+      "off": >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/pumpkinOFF.png
+    style:
+      left: 10%
+      top: 44%
+      width: 8%
+  - type: image
+    entity: switch.10002166d6
+    title: Kitchen
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    image: >-
+      https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/sadpumpkinON.png
+    state_image:
+      "off": >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/sadpumpkinOFF.png
+    style:
+      left: 17%
+      top: 54%
+      width: 8%
+  - type: image
+    entity: switch.10001b5cdf
+    title: Dinning room
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    image: >-
+      https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/smileypumpkinON.png
+    state_image:
+      "off": >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/smileypumpkinOFF.png
+    style:
+      left: 10%
+      top: 64%
+      width: 8%
+  - type: state-label
+    style:
+      left: 15%
+      top: 77%
+      color: "#241b32"
+      font-size: 25px
+      font-family: Georgia
+      font-weight: bold
+      text-shadow: 1px 1px 4px grey
+    entity: sensor.a480072eeb_temperature
+    prefix: Suite|
+    tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-label
+    style:
+      left: 15%
+      top: 82%
+      color: "#241b32"
+      font-size: 25px
+      font-family: Georgia
+      font-weight: bold
+      text-shadow: 1px 1px 4px grey
+    tap_action:
+      action: none
+    hold_action:
+      action: more-info
+    entity: sensor.a4800731ee_temperature
+    prefix: Bedroom1|
+  - type: state-label
+    style:
+      left: 15%
+      top: 87%
+      color: "#241b32"
+      font-size: 25px
+      font-family: Georgia
+      font-weight: bold
+      text-shadow: 1px 1px 4px grey
+    tap_action:
+      action: none
+    hold_action:
+      action: more-info
+    entity: sensor.a4800731e6_temperature
+    prefix: Bedroom2|
+  - type: image
+    title: Living room
+    tap_action:
+      action: toggle
+    hold_action:
+      action: more-info
+    image: >-
+      https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/smileypumpkinON.png
+    state_image:
+      "off": >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/smileypumpkinOFF.png
+    style:
+      left: 92%
+      top: 24%
+      width: 8%
+    entity: switch.10001b7d9c
+  - type: conditional
+    title: Someone at the door
+    conditions:
+      - condition: state
+        entity: binary_sensor.entrance_motion_motion
+        state: "on"
+    elements:
+      - type: image
+        style:
+          left: 57%
+          top: 62%
+          width: 3%
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: >-
+          https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/backwitch.png
+image: >-
+  https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/dashboardbackground.png
