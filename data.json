@@ -9,6 +9,14 @@
   },
   {
     "order": "2",
+    "name": "Halloween dashboard 2",
+    "yaml_file_location": "https://raw.githubusercontent.com/pholemos/config/refs/heads/main/Halloween.yaml",
+    "youtube_url": "https://youtu.be/76UJJp6ppLk",
+    "image_location": "https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/living%20room.png",
+    "description": "With this template, just swap in your own switch entities for each spooky Halloween feature in your dashboard. Hit the Generate YAML button, paste it into Home Assistant, and—poof!—your haunted setup is ready. It’s frightfully easy!"
+  },
+    {
+    "order": "2",
     "name": "Halloween dashboard",
     "yaml_file_location": "https://raw.githubusercontent.com/pholemos/config/refs/heads/main/Halloween.yaml",
     "youtube_url": "https://youtu.be/76UJJp6ppLk",
