@@ -4,6 +4,23 @@
     "name": "Christmas dashboard",
     "yaml_file_location": "https://raw.githubusercontent.com/pholemos/config/refs/heads/main/Christmas.yaml",
     "youtube_url": "https://youtu.be/bPlX7LCNS0Y",
-    "image_location": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=422,fit=crop/7Iw4BFqZk1wES6iO/thumbnail-christmas-yt-2-CHVfaf3AoGUJ2ITc.png"
+    "image_location": "https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/christmas/Full%20left.png",
+    "description": "In this template, all you need to do is replace the switch entities for each element in your dashboard. After that, simply click the Generate YAML button and paste the result into Home Assistant. It’s really that easy!"
+  },
+  {
+    "order": "2",
+    "name": "Halloween dashboard",
+    "yaml_file_location": "https://raw.githubusercontent.com/pholemos/config/refs/heads/main/Halloween.yaml",
+    "youtube_url": "https://youtu.be/76UJJp6ppLk",
+    "image_location": "https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/living%20room.png",
+    "description": "With this template, just swap in your own switch entities for each spooky Halloween feature in your dashboard. Hit the Generate YAML button, paste it into Home Assistant, and—poof!—your haunted setup is ready. It’s frightfully easy!"
+  },
+  {
+    "order": "3",
+    "name": "Alarm clock dashboard",
+    "yaml_file_location": "With this template, just swap in your own switch entities for each spooky Halloween feature in your dashboard. Hit the Generate YAML button, paste it into Home Assistant, and—poof!—your haunted setup is ready. It’s frightfully easy!",
+    "youtube_url": "https://youtu.be/brZZNT_mrnY",
+    "image_location": "https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/clock/AlarmClock4.png",
+    "description": "In this template, you’ll first need to create the helpers and scripts, which you can easily find on the Resources page. Just copy and paste them for each element in your dashboard. If you keep the original names, there’s very little you’ll need to adjust.  After that, simply click the Generate YAML button and paste the result into Home Assistant. It’s really that easy!"
   }
 ]
