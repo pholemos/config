@@ -1,0 +1,174 @@
+type: picture-elements
+elements:
+  - type: image
+    style:
+      left: 43.4%
+      top: 49.65%
+      width: 4.4%
+    entity: script.increment_hour
+    title: Increment Hour
+    tap_action:
+      action: toggle
+    hold_action:
+      action: none
+    state_image:
+      "off": https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/clock/hour_up.png
+  - type: image
+    style:
+      left: 47.9%
+      top: 49.65%
+      width: 4.4%
+    entity: script.decrement_hour
+    title: Decrement Hour
+    tap_action:
+      action: toggle
+    hold_action:
+      action: none
+    state_image:
+      "off": https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/clock/hour_down.png
+  - type: image
+    style:
+      left: 56.9%
+      top: 49.65%
+      width: 4.4%
+    entity: script.increment_minute
+    title: Increment Minute
+    tap_action:
+      action: toggle
+    hold_action:
+      action: none
+    state_image:
+      "off": https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/clock/minutes_up.png
+  - type: image
+    style:
+      left: 61.4%
+      top: 49.65%
+      width: 4.4%
+    title: Decrement Minute
+    tap_action:
+      action: toggle
+    hold_action:
+      action: none
+    state_image:
+      "off": https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/clock/minutes_down.png
+    entity: script.decrement_minute
+  - type: image
+    style:
+      left: 52.4%
+      top: 49.65%
+      width: 4.4%
+    title: Toggle Alarm AM/PM
+    tap_action:
+      action: toggle
+    hold_action:
+      action: none
+    state_image:
+      "off": https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/clock/am_pm.png
+    entity: script.toggle_alarm_am_pm
+  - type: state-label
+    style:
+      left: 59%
+      top: 23%
+      font-size: 2vw
+      color: white
+      font-family: Arial
+    entity: sensor.current_time
+    tap_action:
+      action: none
+    hold_action:
+      action: none
+  - type: state-label
+    style:
+      left: 52.3%
+      top: 32%
+      font-size: 4.5vw
+      color: white
+      font-weight: bold
+    tap_action:
+      action: none
+    hold_action:
+      action: none
+    entity: sensor.formatted_time
+  - type: image
+    style:
+      left: 40.6%
+      top: 69.1%
+      width: 4.4%
+    title: Alarm Voice ON
+    tap_action:
+      action: toggle
+    hold_action:
+      action: none
+    state_image:
+      "off": https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/clock/voice.png
+      "on": https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/clock/voice_on.png
+    entity: input_boolean.alarm_voice_on
+  - type: image
+    style:
+      left: 46.3%
+      top: 69.1%
+      width: 4.4%
+    title: Alarm Youtube ON
+    tap_action:
+      action: toggle
+    hold_action:
+      action: none
+    state_image:
+      "off": https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/clock/youtube.png
+      "on": https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/clock/youtube_on.png
+    entity: input_boolean.alarm_youtube_on
+  - type: image
+    style:
+      left: 52.2%
+      top: 69.1%
+      width: 4.4%
+    title: Alarm_ON
+    tap_action:
+      action: toggle
+    hold_action:
+      action: none
+    state_image:
+      "off": https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/clock/on.png
+      "on": https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/clock/on.png
+    entity: input_boolean.alarm_on
+  - type: state-label
+    tap_action:
+      action: none
+    hold_action:
+      action: none
+    entity: input_boolean.alarm_on
+    style:
+      left: 42%
+      top: 40.65%
+      font-size: 2vw
+      font-weight: bold
+      text-transform: uppercase
+  - type: image
+    style:
+      left: 58%
+      top: 69.1%
+      width: 4.4%
+    title: Alarm Light ON
+    tap_action:
+      action: toggle
+    hold_action:
+      action: none
+    state_image:
+      "off": https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/clock/light.png
+      "on": https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/clock/light_on.png
+    entity: input_boolean.alarm_light_on
+  - type: image
+    style:
+      left: 63.8%
+      top: 69.1%
+      width: 4.4%
+    title: Alarm Coffee Machine ON
+    tap_action:
+      action: toggle
+    hold_action:
+      action: none
+    state_image:
+      "off": https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/clock/coffee.png
+      "on": https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/clock/coffee_on.png
+    entity: input_boolean.alarm_coffee_machine_on
+image: https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/clock/AlarmClockBase.png
