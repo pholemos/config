@@ -159,11 +159,11 @@ elements:
       action: toggle
     hold_action:
       action: more-info
-    image: >-
-      https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/smileypumpkinON.png
     state_image:
       "off": >-
         https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/smileypumpkinOFF.png
+      "on": >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/halloween/smileypumpkinON.png
     style:
       left: 10%
       top: 64%
@@ -183,6 +183,7 @@ elements:
       action: none
     hold_action:
       action: more-info
+    title: Suite temperature sensor
   - type: state-label
     style:
       left: 15%
@@ -198,6 +199,7 @@ elements:
       action: more-info
     entity: sensor.a4800731ee_temperature
     prefix: Bedroom1|
+    title: Bedroom 1 temperature sensor
   - type: state-label
     style:
       left: 15%
@@ -213,6 +215,7 @@ elements:
       action: more-info
     entity: sensor.a4800731e6_temperature
     prefix: Bedroom2|
+    title: Bedroom 2 temperature sensor
   - type: image
     title: Living room
     tap_action:
