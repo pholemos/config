@@ -28,7 +28,7 @@
     "name": "LG TV REMOTE dashboard",
     "yaml_file_location": "https://raw.githubusercontent.com/pholemos/config/refs/heads/main/lgtvremote.yaml",
     "youtube_url": "https://youtu.be/-4TawU1TiMk",
-    "image_location": "https://raw.githubusercontent.com/doityoumadeeasy-dev/images/d203c4ea43bc0b5f97bd7dfaf1c14dfd5cfa36f8/TV%20Remote/fullremote.png",
+    "image_location": "https://raw.githubusercontent.com/doityoumadeeasy-dev/images/01e75e38af93e04a79dc7c9546c9df11663eff98/TV%20Remote/fullremote.png",
     "description": "In this template you can generate a remote control for your LG TV, you’ll first need to create the helpers and scripts, which you can easily find on the Resources page. Just copy and paste them for each element in your dashboard. If you keep the original names, there’s very little you’ll need to adjust.  After that, simply click the Generate YAML button and paste the result into Home Assistant. It’s really that easy!"
   }
 ]
