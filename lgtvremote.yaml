@@ -1,0 +1,156 @@
+type: picture-elements
+elements:
+  - type: image
+    style:
+      top: 21%
+      left: 23%
+      width: 6%
+    title: blinker
+    tap_action:
+      action: none
+    hold_action:
+      action: none
+    image: >-
+      https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/christmas/blinkeron.gif
+  - type: image
+    style:
+      top: 10%
+      left: 10%
+      width: 100%
+    title: Console
+    tap_action:
+      action: none
+    hold_action:
+      action: none
+    image: >-
+      https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/christmas/Console.png
+  - type: image
+    style:
+      top: 30%
+      left: 32%
+      width: 12%
+    title: Tree indicator
+    tap_action:
+      action: none
+    hold_action:
+      action: none
+    state_image:
+      'on': >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/christmas/sign1on.gif
+      'off': >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/christmas/sign1off.png
+    entity: Tree indicator
+  - type: image
+    style:
+      top: 30%
+      left: 46%
+      width: 12%
+    title: Window lights indicator
+    tap_action:
+      action: none
+    hold_action:
+      action: none
+    state_image:
+      'on': >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/christmas/sign2on.gif
+      'off': >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/christmas/sign2off.png
+    entity: Window lights indicator
+  - type: image
+    title: Star indicator
+    tap_action:
+      action: none
+    hold_action:
+      action: none
+    state_image:
+      'on': >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/christmas/sign3on.gif
+      'off': >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/christmas/sign3off.png
+    style:
+      top: 30%
+      left: 60%
+      width: 12%
+    entity: Star indicator
+  - type: image
+    title: Train indicator
+    tap_action:
+      action: none
+    hold_action:
+      action: none
+    state_image:
+      'on': >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/christmas/sign4on.gif
+      'off': >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/christmas/sign4off.png
+    style:
+      top: 30%
+      left: 74%
+      width: 12%
+    entity: Train indicator
+  - type: image
+    title: Tree Switch
+    tap_action:
+      action: toggle
+    hold_action:
+      action: none
+    state_image:
+      'on': >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/christmas/b1on.png
+      'off': >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/christmas/b1off.png
+    style:
+      top: 65%
+      left: 32%
+      width: 10%
+    entity: Tree Switch
+  - type: image
+    title: Window lights Switch
+    tap_action:
+      action: toggle
+    hold_action:
+      action: none
+    state_image:
+      'on': >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/christmas/b2on.png
+      'off': >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/christmas/b2off.png
+    style:
+      top: 65%
+      left: 46%
+      width: 10%
+    entity: Window lights Switch
+  - type: image
+    title: Star Switch
+    tap_action:
+      action: toggle
+    hold_action:
+      action: none
+    state_image:
+      'on': >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/christmas/b3on.png
+      'off': >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/christmas/b3off.png
+    style:
+      top: 65%
+      left: 60%
+      width: 10%
+    entity: Star Switch
+  - type: image
+    title: Train Switch
+    tap_action:
+      action: toggle
+    hold_action:
+      action: none
+    state_image:
+      'on': >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/christmas/b4on.png
+      'off': >-
+        https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/christmas/b4off.png
+    style:
+      top: 65%
+      left: 74%
+      width: 10%
+    entity: Train Switch
+image: >-
+  https://raw.githubusercontent.com/doityoumadeeasy-dev/images/37a20114ec836154bb0daa89d61c065546912b27/christmas/background.png
